@@ -1,0 +1,369 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+img{
+    width: 100%;
+}
+/*==================================================================H================================================================*/
+.header{
+    height: 986px;
+}
+.header-content{
+    background: url(../images/header-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.menu{
+    padding: 50px 0;
+    background: white;
+}
+.logo{
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 28px;
+    color: rgba(1, 21, 85, 0.70);
+}
+.logo:hover{
+    color: rgba(1, 21, 85, 0.70);
+}
+.burger-menu{
+    font-size: 25px;
+    color: #746f77;
+    cursor: pointer;
+}
+.header-content{
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 50px;
+    color: #626262;
+    text-align: center;
+    margin-bottom: 21px;
+}
+.header-content__title span{
+    font-weight: 700;
+    color: #011556;
+}
+.header-content__description{
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: #000;
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 107px;
+}
+.header-content form{
+    background: #fff;
+    max-width: 376px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px 41px 13px;
+}
+.header-content form h3{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    color: #011556;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.header-content form input,
+.header-content form textarea{
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 1px solid #c7c7c7;
+    border-radius: 0;
+    margin-bottom: 27px;
+}
+.header-content form textarea{
+    height: 93px;
+    resize: none;
+}
+.header-content form input:focus,
+.header-content form textarea:focus{
+    box-shadow: none;
+}
+.header-content form button{
+    color: #fff;
+    background: #011556;
+    border-radius: 27px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 11px;
+    padding: 20px 23px 18px;
+}
+.header-content form  button:hover{
+    color: #fff;
+}
+/*==================================================================Hc================================================================*/
+/*==================================================================M================================================================*/
+.tours{
+    padding: 70px 0;
+}
+.tours__title{
+font-family: 'Roboto';
+font-weight: 900;
+font-size: 50px;
+color: rgba(1, 21, 86, 0.8);
+margin-bottom: 50px;
+}
+.tours__link{
+    font-weight: 700;
+    color: #011556;
+    font-size: 36px;
+    border-bottom: 3px solid #011556;
+}
+.tours .col-12:nth-child(1) .tours__link{
+    display: inline-block;
+    margin-top: 15px;
+}
+.tours__link:hover{
+    color: #011556;
+}
+.sights{
+    background: #fbfbfb;
+    padding: 70px 0;
+}
+.sights__title{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 50px;
+    color: rgba(1, 21, 86, 0.8);
+    margin-bottom: 50px;
+}
+.sights__discription{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 25px;
+    margin-bottom: 110px;
+
+}
+.sights-box{
+    position: relative;
+    margin-bottom: 27px;
+}
+.sights-box__content{
+    position: absolute;
+    top: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgba(204, 210, 230, 0.71);
+    transition: 0.5s;
+    overflow: hidden;
+}
+.sights-box__title{
+    font-weight: 400;
+    font-size: 30px;
+    color: #011556;
+}
+.sights-box__discription{
+    font-weight: 400;
+    font-size: 14px;
+    color: #011556;
+    text-align: center;
+    max-width: 210px;
+    width: 100%;
+}
+.sights-box__link{
+    color: #fff;
+    background: #011556;
+    border-radius: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 12px;
+    padding: 16px 43px;
+    
+}
+.sights-box__link:hover{
+    background: #fff;
+    color: #011556;
+    transition: 0.6s;
+}
+.sights-box:hover .sights-box__content{
+    top: 0;
+}
+.documents{
+    padding: 70px 0;
+}
+.documents__title{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 50px;
+    color: rgba(1, 21, 86, 0.8);
+    margin-bottom: 50px;
+    text-align: center;
+}
+.documents__description{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+}
+.documents__list{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    margin-top: 22px;
+
+}
+.documents__list span{
+    margin-right: 45px;
+}
+.documents__info{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000;
+    margin-top: 22px;
+}
+.best_tours{
+    padding: 70px 0;
+    background: #fbfbfb;
+}
+.best_tours__title{
+    font-weight: 400;
+    font-size: 50px;
+    color: #011556;
+    margin-bottom: 50px;
+}
+.best_tours_discription{
+    font-weight: 400;
+    font-size: 14px;
+    color: #011556;
+    line-height: 25px;
+    width: 100%;
+}
+.best-tours-box__description{
+    background: #fff;
+    max-width: 263px;
+    width: 100%;
+    bottom: -30px;
+    padding: 11px 6px 30px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 6px 16px rgba(20, 20, 21, 0.08);
+}
+.best-tours-box__description span{
+    font-size: 24px;
+    line-height: 17px;
+    color: rgba(1, 21, 86, 0.7);
+    margin-top: 10px;
+}
+.reviews{
+    padding: 70px 0;
+}
+.reviews__title{
+    font-weight: 400;
+    font-size: 50px;
+    color: #011556;
+    margin-bottom: 50px;
+}
+.reviews__description{
+    font-weight: 400;
+    font-size: 14px;
+    color: #011556;
+    line-height: 25px;
+    width: 100%;
+    margin-bottom: 110px;
+}
+.reviews-box{
+    box-shadow: 0 0 27px rgba(20, 20, 21, 0.09);
+    background: #fff;
+    padding: 94px 44px 38px;
+    margin-bottom: 60px;
+}
+.reviews-box__img{
+    position: absolute;
+    top: -56px;
+}
+.reviews-box_review{
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 18px;
+}
+.reviews-box_icons{
+    color: #ffef3b;
+    font-size: 15px;
+}
+.reviews-box__author{
+    font-weight: 500;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 21px;
+}
+/*==================================================================Mc================================================================*/
+/*==================================================================Fs================================================================*/
+.footer{
+    padding: 70px 0 50px;
+    background: #f6f6f6;
+}
+.footer_link{
+    color: #fff;
+    background: #011556;
+    border-radius: 27px;
+    font-size: 16px;
+    line-height: 12px;
+    padding: 21px 87px;
+    margin-bottom: 30px;
+    border: 1px solid #011556;  
+}
+.footer_link:hover{
+    background: #f6f6f6;
+    color: #011556;
+}
+.footer-bottom__link{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #011556;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #011556;
+    margin: 0 8px;
+    box-shadow: 0 0 23px rgba(0, 0, 0, 0.29);
+}
+.footer-bottom__link:hover{
+    background: #f6f6f6;
+    color: #011556;
+}
+.footer-bottom{
+    display: flex;
+    align-items: center;
+}
+.footer-bottom__copyright{
+    margin-left: 35px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.6);
+}
+/*==================================================================Fc================================================================*/
